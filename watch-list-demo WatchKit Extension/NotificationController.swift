@@ -1,10 +1,3 @@
-//
-//  NotificationController.swift
-//  watch-list-demo WatchKit Extension
-//
-//  Created by Mark Volkmann on 5/10/22.
-//
-
 import WatchKit
 import SwiftUI
 import UserNotifications
