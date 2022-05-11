@@ -17,6 +17,7 @@
 		1A969468282AB930000A0245 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A969467282AB930000A0245 /* ComplicationController.swift */; };
 		1A96946A282AB930000A0245 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A969469282AB930000A0245 /* Assets.xcassets */; };
 		1A96946D282AB930000A0245 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A96946C282AB930000A0245 /* Preview Assets.xcassets */; };
+		1ADD69EC282BA70A00E08217 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ADD69EB282BA70A00E08217 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		1A96946C282AB930000A0245 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1A96946E282AB930000A0245 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1A96946F282AB930000A0245 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1ADD69EB282BA70A00E08217 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,15 +120,16 @@
 		1A96945E282AB930000A0245 /* watch-list-demo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				1A96945F282AB930000A0245 /* watch_list_demoApp.swift */,
+				1A969469282AB930000A0245 /* Assets.xcassets */,
+				1A969467282AB930000A0245 /* ComplicationController.swift */,
 				1A969461282AB930000A0245 /* ContentView.swift */,
+				1A96946E282AB930000A0245 /* Info.plist */,
+				1ADD69EB282BA70A00E08217 /* Model.swift */,
 				1A969463282AB930000A0245 /* NotificationController.swift */,
 				1A969465282AB930000A0245 /* NotificationView.swift */,
-				1A969467282AB930000A0245 /* ComplicationController.swift */,
-				1A969469282AB930000A0245 /* Assets.xcassets */,
-				1A96946E282AB930000A0245 /* Info.plist */,
-				1A96946F282AB930000A0245 /* PushNotificationPayload.apns */,
 				1A96946B282AB930000A0245 /* Preview Content */,
+				1A96946F282AB930000A0245 /* PushNotificationPayload.apns */,
+				1A96945F282AB930000A0245 /* watch_list_demoApp.swift */,
 			);
 			path = "watch-list-demo WatchKit Extension";
 			sourceTree = "<group>";
@@ -269,6 +272,7 @@
 				1A969464282AB930000A0245 /* NotificationController.swift in Sources */,
 				1A969462282AB930000A0245 /* ContentView.swift in Sources */,
 				1A969468282AB930000A0245 /* ComplicationController.swift in Sources */,
+				1ADD69EC282BA70A00E08217 /* Model.swift in Sources */,
 				1A969460282AB930000A0245 /* watch_list_demoApp.swift in Sources */,
 				1A969466282AB930000A0245 /* NotificationView.swift in Sources */,
 			);
